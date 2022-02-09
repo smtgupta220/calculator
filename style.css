@@ -1,0 +1,112 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Poppins', sans-serif; }
+
+html {
+  font-size: 62.5%; }
+
+.main {
+  text-align: center; }
+
+#r1 {
+  border-radius: 39px;
+  background-color: lightgray;
+  padding: 20px;
+  width: 90%;
+  height: 150px;
+  color: red;
+  font-size: 20px;
+  letter-spacing: 1px;
+  word-spacing: 11px;
+  font-weight: 500;
+  margin: 20px; }
+
+#r2 {
+  border-radius: 25px;
+  border: 2px solid deeppink;
+  padding: 20px;
+  width: 80%;
+  height: 50px;
+  color: darkgreen;
+  margin: 10px; }
+
+#r3 {
+  border-radius: 25px;
+  border: 2px solid blue;
+  padding: 20px;
+  width: 80%;
+  height: 50px;
+  color: darkgreen;
+  margin: 10px;
+  background-image: url("nat-9.jpg");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: 150px 100px; }
+
+#r4 {
+  border-radius: 15px 50px 5px;
+  border: 2px solid blue;
+  padding: 20px;
+  width: 80%;
+  height: 50px;
+  background-color: lightsalmon;
+  margin: 20px;
+  font-size: 24px; }
+
+#r5 {
+  border-radius: 501px / 25px;
+  background-color: #c05fc0;
+  padding: 7px;
+  width: 300px;
+  height: 100px;
+  margin: 20px;
+  border: 5px solid black;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; }
+
+#bi1 {
+  height: 250px;
+  width: 500px;
+  margin: 30px;
+  border: 20px solid blue;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: hotpink;
+  padding: 2px;
+  border-image: url(image3.png) 15 round; }
+
+#multiple_background_image2 {
+  width: 50%;
+  height: 400px;
+  border: 10px solid green;
+  display: block;
+  padding: 2px;
+  margin: 2px;
+  left: 50%;
+  font-weight: 700;
+  font-size: 20px;
+  transform: translateX(49%);
+  background-image: url(19.jpg);
+  background-size: cover;
+  /* background-position: bottom left; */
+  background-repeat: no-repeat;
+  background-origin: border-box; }
+
+#background_clip {
+  width: 90%;
+  height: 100px;
+  padding: 10px;
+  border: 5px solid blue;
+  margin-left: 40px;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: orange;
+  background-clip: content-box; }
+
+#gradient {
+  width: 400px;
+  height: 300px;
+  margin: 10px 10px 10px 40px;
+  background: repeating-linear-gradient(red 10%, green 40%); }
