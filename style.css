@@ -115,4 +115,4 @@ html {
   width: 400px;
   height: 300px;
   margin: 10px 10px 10px 50px;
-  background: radial-gradient(circle, blue -4%, green 42%, yellow 79%); }
+  background-image: radial-gradient(closest-side at 35% 70%, blue, green, yellow); }
